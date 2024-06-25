@@ -1,20 +1,6 @@
-/* style.css */
-
-html {
-    position: relative;
-    min-height: 100%;
-  }
-  
-  body {
-    margin: 0;
-    padding-bottom: 150px; /* footer height */
-    display: flex;
-    flex-direction: column;
-  }
-  
   .header {
     background-color: black;
-    height: 100px;
+    height: 150px;
     width: 100%;
     color: white;
     display: flex;
