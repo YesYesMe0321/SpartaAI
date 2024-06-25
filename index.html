@@ -6,87 +6,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <title>Document</title>
+  <title>IntroduceTeam3</title>
 </head>
 
 <body>
   <div class="header">
     <h1>THIS IS SPARTA</h1>
   </div>
+  
+  
   <div class="container mt-5">
-    <div class="text-center mb-4">
 
-      d 와 e
-
+    <div class="alert alert-secondary" style="width: 80%; margin-left: 10%; margin-right: 10%; text-align: center; font-weight: bold;" role="alert" >
+      팀 소개입니다!
     </div>
+
+    <div class="introduce" style = "margin-bottom: 20px">
+      <div class="card-group custom-card-group">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Introduce ourself</h5>
+            함께 성장하는 3조, 팀 '300' 입니다. 팀명은 스파르타클럽에 영감을 받아, 스파르타하면 떠오르는 영화인 '300' 에서 따왔습니다.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Goal</h5>
+            <ul>
+              <li>미니플젝 완성</li> 
+              <li>웹개발 4강 완강</li>
+              <li>TIL & 코드카다</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Ground Rules</h5>
+            <ul>
+              <li>서로 존칭 & 존중하기</li> 
+              <li>경직되지 않는 분위기</li>
+              <li>자기관리 철저</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
     <div class="row">
+
+      <div class="alert alert-secondary" style="width: 80%; margin-left: 10%; margin-right: 10%; text-align: center; font-weight: bold;" role="alert" >
+        함께하는 팀원들입니다!
+      </div>
+
       <div class="card-group custom-card-group">
 
-        <div class="card text-center card border-info mb-3"
-          style="width: 18rem; display: flex; flex-direction: column;">
-          <div class="card-header">팀원</div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <p class="card-text">이름</p>
-            <p class="card-text">MBTI</p>
-            <p class="card-text">한마디</p>
-            <a href="#" class="btn btn-primary mt-auto">블로그</a>
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ name_0 }}</h5>
           </div>
-
-        </div>
-        <div class="card text-center card border-info mb-3"
-          style="width: 18rem; display: flex; flex-direction: column;">
-          <div class="card-header">팀원</div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <p class="card-text">이름</p>
-            <p class="card-text">MBTI</p>
-            <p class="card-text">한마디</p>
-            <a href="#" class="btn btn-primary mt-auto">블로그</a>
-          </div>
-
-        </div>
-        <div class="card text-center card border-info mb-3"
-          style="width: 18rem; display: flex; flex-direction: column;">
-          <div class="card-header">팀장</div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <p class="card-text">이름</p>
-            <p class="card-text">MBTI</p>
-            <p class="card-text">한마디</p>
-            <a href="#" class="btn btn-primary mt-auto">블로그</a>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ role_0 }}</li>
+            <li class="list-group-item">{{ mbti_0 }}</li>
+            <li class="list-group-item">{{ comment_0 }}</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Velog</a>
+            <a href="#" class="card-link">Github</a>
           </div>
         </div>
 
+        <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ name_1 }}</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ role_1 }}</li>
+            <li class="list-group-item">{{ mbti_1 }}</li>
+            <li class="list-group-item">{{ comment_1 }}</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Velog</a>
+            <a href="#" class="card-link">Github</a>
+          </div>
+        </div>
 
-        <div class="card text-center card border-info mb-3"
-          style="width: 18rem; display: flex; flex-direction: column;">
-          <div class="card-header">팀원</div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <p class="card-text">이름</p>
-            <p class="card-text">MBTI</p>
-            <p class="card-text">한마디</p>
-            <a href="#" class="btn btn-primary mt-auto">블로그</a>
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ name_2 }}</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ role_2 }}</li>
+            <li class="list-group-item">{{ mbti_2 }}</li>
+            <li class="list-group-item">{{ comment_2 }}</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Velog</a>
+            <a href="#" class="card-link">Github</a>
           </div>
         </div>
 
 
-        <div class="card text-center card border-info mb-3"
-          style="width: 18rem; display: flex; flex-direction: column;">
-          <div class="card-header">팀원</div>
-          <div class="card-body d-flex flex-column justify-content-between">
-            <p class="card-text">이름</p>
-            <p class="card-text">MBTI</p>
-            <p class="card-text">한마디</p>
-            <a href="#" class="btn btn-primary mt-auto">블로그</a>
+        <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ name_3 }}</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ role_3 }}</li>
+            <li class="list-group-item">{{ mbti_3 }}</li>
+            <li class="list-group-item">{{ comment_3 }}</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Velog</a>
+            <a href="#" class="card-link">Github</a>
+          </div>
+        </div>
+
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ name_4 }}</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ role_4 }}</li>
+            <li class="list-group-item">{{ mbti_4 }}</li>
+            <li class="list-group-item">{{ comment_4 }}</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Velog</a>
+            <a href="#" class="card-link">Github</a>
           </div>
         </div>
 
       </div>
     </div>
+  </div>
 
-  </div>
-  <div class="footer">
-    <h1 style="color: white; margin-left: 30px; margin-top: 10px; margin-left: 10px;">Introduce</h1>
-    <hr width=100% color=white noshade />
-  </div>
 </body>
 
 </html>
