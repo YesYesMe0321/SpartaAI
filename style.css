@@ -45,3 +45,6 @@
     padding-bottom: 20px; /* footer와 container 사이의 간격 조정 */
   }
   
+  .detail-card {
+    display: none;
+  }
