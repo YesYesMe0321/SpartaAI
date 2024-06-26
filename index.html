@@ -61,7 +61,7 @@
       <div class="row row-cols-1 row-cols-md-5 g-0" style="margin-left: 10%; margin-right: 10%">
         <div class="member_0">
 
-          <div class="card text-bg-warning mb-3 member-card" id='out_div'>
+          <div class="card text-bg-warning mb-3 member-card" id='out_div0'>
             <img src="https://ca.slack-edge.com/T06B9PCLY1E-U073XBHN0CX-c5a23851b0af-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_0 }}</h5>
@@ -77,7 +77,7 @@
             </div>
           </div>
 
-          <div class="card detail-card" id="popupContent" style="display: none;">
+          <div class="card detail-card" id="popupContent0" style="display: none;">
             <div class="card-body">
               <h5 class="card-title">Detail</h5>
               <ul>
@@ -92,7 +92,7 @@
 
         <div class="member_1">
 
-          <div class="card text-bg-secondary mb-3 member-card" id='out_div2'>
+          <div class="card text-bg-secondary mb-3 member-card" id='out_div1'>
             <img src="https://ca.slack-edge.com/T06B9PCLY1E-U0767H31KV0-5a0bd710ab47-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_1 }}</h5>
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <div class="card detail-card" id="popupContent2" style="display: none;">
+          <div class="card detail-card" id="popupContent1" style="display: none;">
             <div class="card-body">
               <h5 class="card-title">Detail</h5>
               <ul>
@@ -122,7 +122,7 @@
 
         <div class="member_2">
 
-          <div class="card text-bg-warning mb-3 member-card" id='out_div3'>
+          <div class="card text-bg-warning mb-3 member-card" id='out_div2'>
             <img
               src="https://ca.slack-edge.com/T06B9PCLY1E-U076ELFE7MZ-2e62aab9d8d8-512"
               class="card-img-top">
@@ -140,7 +140,7 @@
             </div>
           </div>
 
-          <div class="card detail-card" id="popupContent3" style="display: none;">
+          <div class="card detail-card" id="popupContent2" style="display: none;">
             <div class="card-body">
               <h5 class="card-title">Detail</h5>
               <ul>
@@ -154,7 +154,7 @@
 
         <div class="member_3">
 
-          <div class="card text-bg-secondary mb-3 member-card" id='out_div4'>
+          <div class="card text-bg-secondary mb-3 member-card" id='out_div3'>
             <img src="https://ca.slack-edge.com/T06B9PCLY1E-U0758FTQT53-c2fdc4813969-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_3 }}</h5>
@@ -170,7 +170,7 @@
             </div>
           </div>
 
-          <div class="card detail-card" id="popupContent4" style="display: none;">
+          <div class="card detail-card" id="popupContent3" style="display: none;">
             <div class="card-body">
               <h5 class="card-title">Detail</h5>
               <ul>
@@ -188,8 +188,11 @@
   <!-- js -->
   <script>
 
-    const out_div =
-      document.getElementById('out_div');
+    const out_div0 =
+      document.getElementById('out_div0');
+
+    const out_div1 =
+      document.getElementById('out_div1');
 
     const out_div2 =
       document.getElementById('out_div2');
@@ -197,52 +200,46 @@
     const out_div3 =
       document.getElementById('out_div3');
 
-    const out_div4 =
-      document.getElementById('out_div4');
-
-    const out_div5 =
-      document.getElementById('out_div5');
-
-    const popupContent =
-      document.getElementById('popupContent');
-    out_div.addEventListener
+    const popupContent0 =
+      document.getElementById('popupContent0');
+    out_div0.addEventListener
       ('mouseover', function () {
-        popupContent.style.display = 'block';
+        popupContent0.style.display = 'block';
       });
-    out_div.addEventListener
+    out_div0.addEventListener
       ('mouseout', function () {
-        popupContent.style.display = 'none';
+        popupContent0.style.display = 'none';
       });
 
-    const popupContent2 =
-      document.getElementById('popupContent2');
-    out_div2.addEventListener
+    const popupContent1 =
+      document.getElementById('popupContent1');
+    out_div1.addEventListener
       ('mouseover', function () {
-        popupContent2.style.display = 'block';
+        popupContent1.style.display = 'block';
       });
-    out_div2.addEventListener
+    out_div1.addEventListener
       ('mouseout', function () {
-        popupContent2.style.display = 'none';
+        popupContent1.style.display = 'none';
       });
 
     const popupContent3 =
-      document.getElementById('popupContent3');
-    out_div3.addEventListener
+      document.getElementById('popupContent2');
+    out_div2.addEventListener
       ('mouseover', function () {
         popupContent3.style.display = 'block';
       });
-    out_div3.addEventListener
+    out_div2.addEventListener
       ('mouseout', function () {
         popupContent3.style.display = 'none';
       });
 
     const popupContent4 =
-      document.getElementById('popupContent4');
-    out_div4.addEventListener
+      document.getElementById('popupContent3');
+    out_div3.addEventListener
       ('mouseover', function () {
         popupContent4.style.display = 'block';
       });
-    out_div4.addEventListener
+    out_div3.addEventListener
       ('mouseout', function () {
         popupContent4.style.display = 'none';
       });
