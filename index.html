@@ -22,7 +22,7 @@
         팀 소개입니다!
       </div>
 
-      <div class="introduce" style="margin-bottom: 20px">
+      <div class="introduce" style="width: 1100px; margin: 0 auto; margin-bottom: 20px">
         <div class="card-group custom-card-group">
           <div class="card">
             <div class="card-body">
@@ -55,15 +55,14 @@
 
       <div class="alert alert-secondary"
         style="width: 80%; margin-left: 10%; margin-right: 10%; text-align: center; font-weight: bold;" role="alert">
-        함께하는 팀원들입니다!
+        함께하는 팀원들입니다! 멤버카드에 마우스를 얹으면 추가정보를 확인할 수 있습니다.
       </div>
 
-      <div class="row row-cols-1 row-cols-md-5 g-2">
-
+      <div class="row row-cols-1 row-cols-md-5 g-0" style="margin-left: 10%; margin-right: 10%">
         <div class="member_0">
 
-          <div class="card text-bg-warning mb-3 member-card"  id= 'out_div'>
-            <img src="..." class="card-img-top">
+          <div class="card text-bg-warning mb-3 member-card" id='out_div'>
+            <img src="https://ca.slack-edge.com/T06B9PCLY1E-U073XBHN0CX-c5a23851b0af-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_0 }}</h5>
             </div>
@@ -73,8 +72,8 @@
               <li class="list-group-item">{{ comment_0 }}</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Velog</a>
-              <a href="#" class="card-link">Github</a>
+              <button type="button" class="btn btn-dark">Velog</button>
+              <button type="button" class="btn btn-dark">Github</button>
             </div>
           </div>
 
@@ -93,8 +92,8 @@
 
         <div class="member_1">
 
-          <div class="card text-bg-secondary mb-3 member-card"  id ='out_div2'>
-            <img src="..." class="card-img-top">
+          <div class="card text-bg-secondary mb-3 member-card" id='out_div2'>
+            <img src="https://ca.slack-edge.com/T06B9PCLY1E-U0767H31KV0-5a0bd710ab47-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_1 }}</h5>
             </div>
@@ -104,8 +103,8 @@
               <li class="list-group-item">{{ comment_1 }}</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Velog</a>
-              <a href="#" class="card-link">Github</a>
+              <button type="button" class="btn btn-dark">Velog</button>
+              <button type="button" class="btn btn-dark">Github</button>
             </div>
           </div>
 
@@ -123,8 +122,10 @@
 
         <div class="member_2">
 
-          <div class="card text-bg-warning mb-3 member-card"  id ='out_div3'>
-            <img src="..." class="card-img-top">
+          <div class="card text-bg-warning mb-3 member-card" id='out_div3'>
+            <img
+              src="https://ca.slack-edge.com/T06B9PCLY1E-U076ELFE7MZ-2e62aab9d8d8-512"
+              class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_2 }}</h5>
             </div>
@@ -134,8 +135,8 @@
               <li class="list-group-item">{{ comment_2 }}</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Velog</a>
-              <a href="#" class="card-link">Github</a>
+              <button type="button" class="btn btn-dark">Velog</button>
+              <button type="button" class="btn btn-dark">Github</button>
             </div>
           </div>
 
@@ -153,8 +154,8 @@
 
         <div class="member_3">
 
-          <div class="card text-bg-secondary mb-3 member-card"  id ='out_div4'>
-            <img src="..." class="card-img-top">
+          <div class="card text-bg-secondary mb-3 member-card" id='out_div4'>
+            <img src="https://ca.slack-edge.com/T06B9PCLY1E-U0758FTQT53-c2fdc4813969-512" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">{{ name_3 }}</h5>
             </div>
@@ -164,8 +165,8 @@
               <li class="list-group-item">{{ comment_3 }}</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Velog</a>
-              <a href="#" class="card-link">Github</a>
+              <button type="button" class="btn btn-dark">Velog</button>
+              <button type="button" class="btn btn-dark">Github</button>
             </div>
           </div>
 
@@ -175,36 +176,6 @@
               <ul>
                 <li>pros_3</li>
                 <li>workstyle_3</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="member_4">
-
-          <div class="card text-bg-warning mb-3 member-card"  id ='out_div5'>
-            <img src="..." class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">{{ name_4 }}</h5>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">{{ role_4 }}</li>
-              <li class="list-group-item">{{ mbti_4 }}</li>
-              <li class="list-group-item">{{ comment_4 }}</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Velog</a>
-              <a href="#" class="card-link">Github</a>
-            </div>
-          </div>
-
-          <div class="card detail-card" id="popupContent5" style="display: none;">
-            <div class="card-body">
-              <h5 class="card-title">Detail</h5>
-              <ul>
-                <li>pros_4</li>
-                <li>workstyle_4</li>
               </ul>
             </div>
           </div>
@@ -274,18 +245,6 @@
     out_div4.addEventListener
       ('mouseout', function () {
         popupContent4.style.display = 'none';
-      });
-
-    const popupContent5 =
-      document.getElementById('popupContent5');
-    out_div5.addEventListener
-      ('mouseover', function () {
-
-        popupContent5.style.display = 'block';
-      });
-    out_div5.addEventListener
-      ('mouseout', function () {
-        popupContent5.style.display = 'none';
       });
   </script>
 </body>
